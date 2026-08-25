@@ -1,8 +1,4 @@
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Dev-Dera1/de-chinny-angel.git
-git push -u origin mainimport {
+import {
   useEffect,
   useState,
 } from "react";
