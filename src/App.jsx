@@ -1,4 +1,8 @@
-import {
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Dev-Dera1/de-chinny-angel.git
+git push -u origin mainimport {
   useEffect,
   useState,
 } from "react";
@@ -22,7 +26,7 @@ import Payments from "./pages/payment";
 
 import Admin from "./admin/admin";
 
-import Toast from "./components/Toast";
+import Toast from "./components/toast";
 
 const STORAGE_KEY =
   "de_chinny_angel_react";
